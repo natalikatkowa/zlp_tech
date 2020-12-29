@@ -21,8 +21,8 @@
 
 ## Индивидуальные планы
 
-<p>Акулин И.А. [akulin.md](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/akulin.md)</p>
-<p>каткова Н.А.[katkova.md](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/katkova.md)</p>
+<p>Акулин И.А. [akulin.md](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/akulin.md) </p>
+<p>Каткова Н.А. [katkova.md](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/katkova.md) </p>
 
 ## Отчет
 В скором времени тут появится ссылка на первую версию отчета
