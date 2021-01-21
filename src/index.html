@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Project</title>
+  </head>
+  <body>
+
+
+    <!-- Start Nabvar -->
+                <div class="navbar navbar-dark bg-primary fixed-top navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="content/logo.png" alt="logo" style="width:70px; height: 50px"> Technologies
+                        </a>
+                        <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#company">О компании</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#anketa">Подбор портфеля</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#investors">Типы инвесторов</a>
+                              </li>
+                            </ul>
+                            <div class="nav-btn">
+                                <a href="#" class="default-btn bg-primary">Пройти анкету</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!-- End Navbar -->
+    
+
+    <!-- Start about company-->
+    <div id="company" class="company-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="container">
+                        <h1 class="masthead-heading text-uppercase">ZLP Technologies</h1>
+                        <p></p>
+                        <p class="masthead-subheading font-weight-light">Иформационная система финансового планирования компании предоставляет возможность подбора индивидуальных инвестиционных предложений для клиентов.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End about company -->
+
+    <hr>
+
+    <!-- Start Anketa-->
+    <div id="anketa" class="anketa-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="container">
+                        <div class="align-items-center">
+                            <h2 class="masthead-heading">Узнайте, куда лучше сейчас инвестировать. </h2>
+                            <p></p>
+                            <p class="masthead-subheading">Пройдите тест, который определит ваш тип инвестора и какие активы стоит рассмотреть для вложения денег</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="container box">
+
+                        <form id="regForm" action="">
+
+                        <div class="tab">
+                            <div class="header-qst">Какая из целей инвестирования вам ближе?</div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Сохранить деньги от инфляции </label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Обогнать инфляцию </label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Заработать как можно больше </label>
+                            </div>
+
+                            <div class="header-qst">Сколько вам лет?</div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Меньше 30 </label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">от 30 до 60 лет </label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">больше 60 лет </label>
+                            </div>
+
+                            <div class="header-qst">Какое у вас образование?</div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">среднее или среднее специальное </label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">высшее экономическое </label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">иное высшее образование </label>
+                            </div>
+
+                        </div>
+
+
+                        <div class="tab">
+                            <div class="header-qst">Укажите уровень своего опыта и знаний на рынке ценных бумаг:</div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Без опыта</label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Начинающий (имею опыт работы менее 1 года)</label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Хорошие знания (опыт работы более 3-х лет) </label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Отличные знания (отлично разбираюсь на рынке) </label>
+                            </div>
+
+                            <div class="header-qst">Какой доход вы получаете в среднем за месяц?</div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Меньше 50 000 Р </label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">от 50 000 Р до 100 000 Р </label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">от 100 000 Р до 200 000 Р</label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">от 200 000 Р до 400 000 Р</label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">больше 400 000 Р</label>
+                            </div>
+
+                            <div class="header-qst">Какую часть сбережений вы готовы вложить?</div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Незначительную (до 20%)</label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Значительную (от 20 до 50%)</label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="r1" oninput="this.className = ''">
+                                <label for="r1">Большую часть (от 50%)</label>
+                            </div>
+
+                        </div>
+
+
+                        <div style="overflow:auto; padding-top: 20px">
+                            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Вернуться</button>
+                            <button type="button" id="nextBtn" onclick="nextPrev(1)">Продолжить</button>
+                        </div>
+
+                        <!-- Circles which indicates the steps of the form: -->
+                        <div style="text-align:center;margin-top:5px;">
+                          <span class="step"></span>
+                          <span class="step"></span>
+                          <span class="step"></span>
+                        </div>
+
+                        </form>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Anketa -->
+
+    <!-- Start Investors-->
+    <!-- End Investors -->
+
+
+
+    <div id="footer" class="footer-area">
+        <div class="text-center text-white py-4">
+            <div class="container"><small>Copyright © Проект 2020</small></div>
+        </div>
+    </div>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="" src="index.js"></script>
+
+  </body>
+</html>
