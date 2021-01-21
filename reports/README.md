@@ -27,4 +27,4 @@
 ## Отчет
 В скором времени тут появится ссылка на первую версию отчета
 
-Шаблон отчета [otchet_PD.docx]
+Шаблон отчета [otchet_PD.docx](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/otchet_PD.docx)
