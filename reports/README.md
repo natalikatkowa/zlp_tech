@@ -25,7 +25,5 @@
 - Каткова Н.А. [katkova.md](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/katkova.md)
 
 ## Отчет
-В скором времени тут появится ссылка на первую версию отчета
+ [ot.docx](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/ot.docx)
 
-- Шаблон отчета [ot.docx](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/ot.docx)
-- Шаблон презентации [Prezentatsia_ZLP_Technologies.pptx](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/Prezentatsia_ZLP_Technologies.pptx)
