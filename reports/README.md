@@ -21,8 +21,10 @@
 
 ## Индивидуальные планы
 
-- Акулин И.А. [akulin.md](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/akulin.md)
 - Каткова Н.А. [katkova.md](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/katkova.md)
+- Акулин И.А. [akulin.md](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/akulin.md)
+- Липина А.Н. [lipina.md](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/lipina.md)
+
 
 ## Отчет
  [ot.docx](https://github.com/natalikatkowa/zlp_tech/blob/main/reports/ot.docx)
